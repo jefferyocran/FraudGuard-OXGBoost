@@ -2,7 +2,7 @@
 
 **Do Western-Trained SMS Fraud Detectors Protect Ghanaian Mobile Money Users? A Gap Analysis and the Case for Local Data**
 
-An undergraduate ML research project (CSM 376, KNUST) investigating whether SMS fraud-detection models generalise across regions, and how much locally-collected Ghanaian data improves detection of mobile money (MoMo) scams.
+A ML research project investigating whether SMS fraud-detection models generalise across regions, and how much locally-collected Ghanaian data improves detection of mobile money (MoMo) scams.
 
 ## Research Questions
 
