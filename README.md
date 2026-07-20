@@ -1,57 +1,63 @@
-# FraudGuard-OXGBoost
+# FraudGuard: Detecting Ghanaian Mobile Money Fraud SMS
 
-**O-XGBoost: An Engineered Focal-Loss XGBoost Model for SMS-Based Mobile Money Fraud Detection in Ghana**
+**Do Western-Trained SMS Fraud Detectors Protect Ghanaian Mobile Money Users? A Gap Analysis and the Case for Local Data**
 
-An undergraduate ML research project (CSM 376, KNUST) that engineers a custom focal-loss variant of XGBoost to detect fraudulent mobile money (MoMo) SMS messages targeting individuals in Ghana.
-
-## Overview
-
-Mobile money fraud costs Ghanaians hundreds of millions of cedis each year, largely through deceptive SMS messages that mimic legitimate MTN MoMo notifications. This project trains a machine learning model to classify incoming SMS as **scam** or **legitimate** based on their text content.
-
-The core contribution is **O-XGBoost** — a variant of XGBoost with a fabricated focal-loss objective function that improves detection of the minority (scam) class under class imbalance.
+An undergraduate ML research project (CSM 376, KNUST) investigating whether SMS fraud-detection models generalise across regions, and how much locally-collected Ghanaian data improves detection of mobile money (MoMo) scams.
 
 ## Research Questions
 
-- **RQ1:** Does O-XGBoost achieve a statistically significant improvement in AUC-PR over standard XGBoost?
-- **RQ2:** How does O-XGBoost compare to Random Forest and Logistic Regression baselines?
-- **RQ3:** Which textual features are most discriminative of Ghanaian MoMo scam SMS (via SHAP)?
+- **RQ1 — The transfer gap:** How well does a model trained only on Western SMS data detect Ghanaian MoMo scams?
+- **RQ2 — The local-data effect:** Does adding locally-collected field data improve detection of Ghanaian scams?
+- **RQ3 — The engineering question:** Does a focal-loss-engineered XGBoost variant (O-XGBoost) improve detection over the standard model, and under what conditions?
+
+## Key Findings (preliminary)
+
+|Finding                                |Result                                                    |
+|---------------------------------------|----------------------------------------------------------|
+|Western-trained model on Ghanaian scams|**29.4%** scam recall (caught 5 of 17)                    |
+|After adding weighted local data       |**52.9%** scam recall (caught 9 of 17), **+23.5 pp**      |
+|O-XGBoost vs standard XGBoost          |Inconclusive at current data scale — needs more field data|
+
+**Headline:** A fraud detector trained only on foreign data misses roughly 7 in 10 Ghanaian MoMo scams. Adding locally-collected data nearly doubles detection. The main determinant of performance is the presence of local data, not model choice alone.
 
 ## Method
 
-- **Model:** XGBoost with a custom focal-loss objective (O-XGBoost)
-- **Baselines:** Standard XGBoost (log-loss), Random Forest, Logistic Regression
-- **Features:** TF-IDF (unigrams + bigrams)
-- **Data:** Hybrid — UCI SMS Spam Collection (public) + field-collected Ghanaian MoMo SMS (primary)
-- **Evaluation:** Accuracy, Macro F1, AUC-ROC, AUC-PR; 5-fold stratified CV; Wilcoxon signed-rank test
+- **Features:** TF-IDF (unigrams + bigrams, max 1000 features)
+- **Models:** Logistic Regression, Random Forest, standard XGBoost, and O-XGBoost (custom focal-loss objective, γ=2.0, α=0.25)
+- **Data:** Hybrid — UCI SMS Spam Collection (5,574 messages, public) + field-collected Ghanaian MoMo SMS (67 messages, primary)
+- **Evaluation:** Scam recall on a held-out Ghanaian test set; fixed random seed (42)
 
-## Repository Structure
+## Files in This Repository
 
-```
-FraudGuard-OXGBoost/
-├── data/                  # Anonymised datasets (no raw screenshots, no PII)
-├── notebooks/
-│   ├── baseline.ipynb     # Standard XGBoost, RF, LR — locked control
-│   ├── o_xgboost.ipynb    # O-XGBoost with focal loss
-│   └── comparison.ipynb   # Formal baseline-vs-engineered comparison
-├── models/                # Saved model artefacts (.pkl)
-├── requirements.txt
-└── README.md
-```
+|File                     |Description                                                           |
+|-------------------------|----------------------------------------------------------------------|
+|`baseline.ipynb`         |Baseline models (Logistic Regression, Random Forest, standard XGBoost)|
+|`o_xgboost.ipynb`        |O-XGBoost focal-loss variant                                          |
+|`experiment2.ipynb`      |Local-data effect — the headline result (RQ2)                         |
+|`experiment3.ipynb`      |Engineering comparison — preliminary (RQ3)                            |
+|`ghana_momo_field_v3.csv`|Current anonymised Ghanaian MoMo SMS dataset (67 messages)            |
+|`ghana_momo_sms.csv`     |Earlier field dataset (30 messages) — superseded by v3                |
+|`requirements.txt`       |Python dependencies                                                   |
+|`README.md`              |This file                                                             |
 
-## Ethics & Data Privacy
+## Dataset Notes
 
-Field data was collected with approval from the KNUST Committee on Human Research, Publications and Ethics (CHRPE), College of Humanities and Social Sciences. All SMS data is anonymised — phone numbers, names, and transaction amounts are redacted before analysis. No raw screenshots are stored. This project complies with the Ghana Data Protection Act, 2012 (Act 843).
+The Ghanaian field dataset was collected under **KNUST CHRPE ethics approval** and complies with the **Ghana Data Protection Act, 2012 (Act 843)**. All messages are anonymised — phone numbers, names, transaction IDs, and links are redacted (`<PHONE>`, `<TXID>`, `<URL>`). Messages are otherwise preserved verbatim, including original spelling and formatting, as these are characteristic features of the fraud class. No raw screenshots are stored.
 
 ## Reproducibility
 
-- Random seed fixed at `42` across all notebooks
-- Library versions pinned in `requirements.txt`
-- Identical data splits used for baseline and engineered model
+- Fixed random seed: `42`
+- Data splits and preprocessing documented in each notebook
+- Run in Google Colab (CPU is sufficient; XGBoost trains in under a minute)
 
 ## Author
 
 **Jeffery Jojo Ocran** — Department of Computer Science, KNUST
 Supervisor: Dr. Emmanuel Ahene
+
+## Status
+
+Active research. Current priority: expanding the field dataset to strengthen RQ2 and enable a conclusive RQ3 evaluation.
 
 ## License
 
