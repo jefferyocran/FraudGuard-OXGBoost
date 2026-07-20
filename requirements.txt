@@ -1,9 +1,10 @@
-xgboost==2.0.3
-scikit-learn==1.4.0
-pandas==2.1.4
-numpy==1.26.2
-shap==0.44.0
-matplotlib==3.8.2
-seaborn==0.13.1
-scipy==1.11.4
-jupyter==1.0.0
+# Install with: pip install -r requirements.txt
+# Versions left unpinned to stay compatible with Google Colab's current NumPy 2.x.
+# To record the exact versions you used, run in a notebook cell:
+#   !pip list | grep -E "xgboost|scikit-learn|numpy|pandas|shap"
+
+numpy>=2.0
+pandas>=2.0
+scikit-learn>=1.4
+xgboost>=2.1
+shap>=0.46
