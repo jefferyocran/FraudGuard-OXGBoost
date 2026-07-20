@@ -42,7 +42,7 @@ A ML research project investigating whether SMS fraud-detection models generalis
 
 ## Dataset Notes
 
-The Ghanaian field dataset was collected under **KNUST CHRPE ethics approval** and complies with the **Ghana Data Protection Act, 2012 (Act 843)**. All messages are anonymised — phone numbers, names, transaction IDs, and links are redacted (`<PHONE>`, `<TXID>`, `<URL>`). Messages are otherwise preserved verbatim, including original spelling and formatting, as these are characteristic features of the fraud class. No raw screenshots are stored.
+All messages are anonymised — phone numbers, names, transaction IDs, and links are redacted (`<PHONE>`, `<TXID>`, `<URL>`). Messages are otherwise preserved verbatim, including original spelling and formatting, as these are characteristic features of the fraud class. No raw screenshots are stored.
 
 ## Reproducibility
 
