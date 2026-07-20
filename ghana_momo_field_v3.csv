@@ -1,0 +1,68 @@
+label,message,source
+1,"Your account has been blocked. To restore access, kindly call the number displayed and verify your details.",field_scam
+1,"Dear customer, your momo wallet has been suspended due to suspicious login. Call now to unlock it.",field_scam
+1,"You have received GH¢2,750 mistakenly. Please send back the amount immediately before reversal fee is applied.",field_scam
+1,MTN Alert: Your line will be disconnected tonight. Reply with your OTP to confirm ownership.,field_scam
+1,"Brother, I dey Ghana Post. Your parcel is here but tax must be settled today. Send the fee so we release am.",field_scam
+1,"Your bank account is blocked. To avoid permanent freeze, send your card details and OTP now.",field_scam
+1,Your MoMo reversal has been approved. Kindly confirm by sending the code to our officer.,field_scam
+1,Congrats! Your number won a reward. Pay GH¢45 processing fee to receive it today.,field_scam
+1,Account blocked due to invalid login attempt. Please visit the link we sent to verify your wallet.,field_scam
+1,Momo department: urgent! Your KYC is incomplete. Reply with your full name and OTP before 5pm.,field_scam
+1,"Ei boss, your package no reach. Sender said duty not paid. Send small money make we release am.",field_scam
+1,"Your transaction of GH¢1,200 is pending. If not yours, call this number immediately to cancel.",field_scam
+1,"Hello dear, we have blocked your wallet for security. Send your PIN so we unblock it for you.",field_scam
+1,You are selected for a business grant. Pay a registration fee to activate your payment today.,field_scam
+1,We detected unusual activity on your card. Reply with the OTP and expiry date to keep account active.,field_scam
+1,Your number has been shortlisted. Please send GH¢30 for confirmation and prize delivery.,field_scam
+1,Please confirm your address and send the one-time code. Courier team cannot proceed without it.,field_scam
+1,"Your wallet is blocked. To avoid charges, call us now. Do not ignore this message.",field_scam
+1,"Hi sis, I sent you money by mistake. Please return it asap before my bank report the case.",field_scam
+1,Account locked. We noticed unusual transfer. Contact support to stop further deductions.,field_scam
+1,Your ATM card will expire today. Kindly verify your account now using the link below.,field_scam
+1,"Hello, this is the reversal desk. Your refund is ready but we need the code from your SMS to process it.",field_scam
+1,Your loan application is approved. Pay the admin fee now to receive the funds in 10 minutes.,field_scam
+1,"Dear customer, kindly reconfirm your details. Failure to respond will block your account permanently.",field_scam
+1,"Final notice: account suspended. To prevent further loss, reply with the 6-digit code sent to you.",field_scam
+0,Your airtime bundle has been activated successfully. Thank you for using our service.,field_legit
+0,Your data bundle purchase was successful. No action required.,field_legit
+0,"Charlie, I dey town. Call me when free, we need talk about project.",field_legit
+0,Appointment reminder: Your clinic visit is scheduled for tomorrow at 9:00 AM.,field_legit
+0,You coming to chapel later? Bring the charger abeg.,field_legit
+0,<TXID> Confirmed. GHS4.00 sent to <PHONE> VANESSA KYEREWAA DEBRAH on MTN MOBILE MONEY on 2026-06-03 at 22:16:38. Your Telecel Cash balance is GHS0.37. You were charged GHS0.00. Your E-levy charge is GHS0.00. Sending money from Telecel Cash to Telecel Cash remains FREE on the Telecel Play App. Download the App https://bit.ly/TelecelPlayGhana and continue to enjoy the convenience. Reference: D. Sendi k3k3!,field_legit
+0,<TXID> Confirmed. You have received GHS0.09 from ********6973-Paystack Ltd on 2026-06-04 at 08:26:05. Your Telecel Cash balance is GHS0.46. Ref: FTC PSTK10659369 <TXID>,field_legit
+0,<TXID> confirmed. You have paid your GHS0.46 Ready Loan default charge on 2026-06-04 at 08:51:01. Your new Telecel Cash balance is GHS0.00.,field_legit
+0,Payment made for GHS 31.50 to ZELIA HAMIDU Current Balance: GHS 72.59 . Available Balance: GHS 72.59. Reference: . Transaction ID: <TXID>. Fee charged: GHS0.00 Tax charged: 0. Download the MoMo App for a Faster & Easier Experience. Click here: https://mtnmymomo.onelink.me/XJOt/MoMo,field_legit
+0,Your payment of GHS 30.00 to TELECEL PUSH has been completed at 2026-07-17 16:18:31. Your new balance: GHS 42.21. Fee was GHS 0.38 Tax was GHS -. Reference: -. Financial Transaction Id: <TXID>. External Transaction Id: <TXID>.Download the MoMo App for a Faster & Easier Experience Click here: https://mtnmymomo.onelink.me/XJOt/MoMo,field_legit
+0,"Hello, MTN BUNDLE (CISNG.sp) has successfully refunded GHS 2.00 to your mobile money account at 2026-07-19 01:30:20. Message from refunder: . Your new balance:2.71 GHS. Financial Transaction Id: <TXID>. External Transaction Id: -. TRANSACTION FEE IS 0",field_legit
+0,Cash In received for GHS 1000.00 from KWAME N. ENTERPRISE. Current Balance GHS 1000.01 Available Balance GHS 1000.01. Transaction ID: <TXID>. Fee charged: GHS 0. Cash in (Deposit) is a free transaction on MTN Mobile Money. Please do not pay any fees for it.,field_legit
+0,<TXID> Confirmed. Your Telecel Cash wallet balance is GHS5.16 . Stay alert. Never share your PIN or OTP with anyone or click unknown links. Protect your personal information.,field_legit
+0,<TXID> Confirmed. You have transferred GHS590.00 to ECOBANK ACCOUNT - <TXID> INTERNATIONAL ORG. FOR MIGRATION MEDICALS on 2026-05-04 at 10:58:14. Your Telecel Cash balance is GHS345.00. You were charged GHS5.90 (Telecel Cash fee GHS5.90 + E-levy GHS0.00). Reference: Medicals. Sendi k3k3!,field_legit
+0,Payment made for GHS 45.00 to KWAME N. ENTERPRISE Current Balance: GHS 210.50 . Available Balance: GHS 210.50. Reference: Groceries. Transaction ID: <TXID>. Fee charged: GHS0.00 Tax charged: 0. Download the MoMo App for a Faster & Easier Experience. Click here: https://mtnmymomo.onelink.me/XJOt/MoMo,field_legit
+0,Cash In received for GHS 500.00 from PADYBECKY VENTURES. Current Balance GHS 710.50 Available Balance GHS 710.50. Transaction ID: <TXID>. Fee charged: GHS 0. Cash in (Deposit) is a free transaction on MTN Mobile Money. Please do not pay any fees for it.,field_legit
+0,<TXID> Confirmed. GHS12.50 sent to <PHONE> VANESSA KYEREWAA DEBRAH on MTN MOBILE MONEY on 2026-07-20 at 10:22:18. Your Telecel Cash balance is GHS88.00. You were charged GHS0.00. Your E-levy charge is GHS0.00. Reference: Lunch. Sendi k3k3!,field_legit
+0,<TXID> Confirmed. You have received GHS150.00 from ********6973-Paystack Ltd on 2026-07-20 at 11:45:00. Your Telecel Cash balance is GHS238.00. Ref: FTC PSTK10982736 <TXID>,field_legit
+0,<TXID> Confirmed. Your Telecel Cash wallet balance is GHS238.00 . Stay alert. Never share your PIN or OTP with anyone or click unknown links. Protect your personal information.,field_legit
+0,Trans ID: AT2607208812. You have transferred GHS 75.00 to SAMUEL KOJO OBENG (<PHONE>) on 2026-07-20 at 13:10:05. Fee GHS 0.50. New ATMoney Balance GHS 145.20. Thank you for using ATMoney.,field_legit
+0,Trans ID: AT2607209941. Cash received: GHS 300.00 from JOEL JOJO HALM. Available ATMoney balance: GHS 445.20. Reference: Deposit. Keep your PIN confidential.,field_legit
+0,"Payment for GHS10.00 to MTN BUNDLE .Current Balance: GHS 700.50. Transaction Id: <TXID>. Fee charged: GHS0.00,Tax Charged 0.Download the MoMo App for a Faster & Easier Experience. Click here: https://mtnmymomo.onelink.me/XJOt/MoMo",field_legit
+0,Trans ID: AT2607200001. You have transferred GHS 50.00 to KWABENA MENSAH (<PHONE>) on 2026-07-20 at 09:15:22. Fee GHS 0.50. New ATMoney Balance GHS 120.50. Thank you for using ATMoney.,field_legit
+0,Trans ID: AT2607200045. Cash received: GHS 200.00 from KOFO ADU. Available ATMoney balance: GHS 320.50. Reference: Refund. Keep your PIN confidential.,field_legit
+0,Trans ID: AT2607200088. Airtime purchase of GHS 10.00 for <PHONE> successful. Your new ATMoney balance is GHS 310.50.,field_legit
+1,Sorry your Mobile money account has been Blocked successfully by the MTN head office for 3 Months 2 week's don't attempt your pin now THANK YOU..,field_scam
+1,Cash In received for GHS 500.00 from GOD'S TIME VENTURES KASOA. Current Balance GHS 500.00 Available Balance GHS 500.00. Cash in (Deposit) is a free tr(.....),field_scam
+1,"Payment of 350.00 from SOLOMON OHENEBA ASAMOAH ENTERPRISE OBUASI ROUNDABOUT THE BUS STATION <TXID> 98774446 43111187 Yello"" Customer, Your MTN Account have been BLOCKED Successfully for 3months 2week by Merchant Report. don't attempt your Momo pin at moment THANK YOU",field_scam
+1,"Cash receive for 250.00 from NANA K. GYASI AGRO CHEMICALS AND BUILDING MATERILS <TXID> HHT.ww Reversal of 250.00 have been made on your number your balance is GHS0.00. Y,ello Dear customer Your Pincode Have Been Lock for 2 months due to the reversal Dont try your Pincode Again",field_scam
+1,"Y'ello Valued Customer, your MoMo account has been deactivated due to 12 months of inactivity. Kindly contact customer care with a valid Ghana card for reactivation or click on <URL> for more information. Thank you.",field_scam
+1,M0blieMoney Payment received for GHS 2020.00 from ERIC OWUSU. Current Balance: GHS 2020.75. Available Balance: GHS 2020.75. Reference.1 TRANSACT 0.00:<TXID>:FEE: Transacti EFF 0:00,field_scam
+1,"MobileMoney You have received 70000 XAF from GODLOVE_CBOX_SUS_R6_BOUI.(<TXID>) on your mobile money account at 2022-12-09 Message from sender: Your new balance: 145,892 XAF Financial Transaction Id: <TXID>.",field_scam
+1,"From: MTN-MoMo ALERT: Your MoMo PIN will expire in 24hrs. To avoid account block, dial *170*99# and UPDATE PIN now. If you don't update, your wallet will be suspended. Thank you, MTN Ghana.",field_scam
+1,Payment received for GHC 2880.00 from HAPPYLIFE MULTI MEDIA GHANA ENTERPRISE . Current Balance: GHC 3396.98 Available Balance: GHC 3396.98. Reference. O3.Traansactiion.ID:<TXID>.Fee Changed: GHS 0. Please do not pay any fees for it.,field_scam
+1,"Cash In received for 300.00 from K.K EMMEN VENTURES. Current Transaction ID22476555477 fee changed: 0 (Deposit) is a free Transaction on MTN Mobile Money please do not pay any fese for it Dear' valued Customer'' You have been BLOÇKED ,by the MTN head office for 93 days don't attempt your account with your PIN any more thanks for using MTN",field_scam
+1,Payment for GHS 4000.00 from JOSEPH BOAHEN Current Balance: GHS 9009.00. Available Balançe: GHS 9009.00. Referencé.1 TRANSACT: 0.00:<TXID>: FEE 0:00 Transaçti EFF 0:00,field_scam
+1,"Payment of 200.00 from ASSMBLIES OF GOD NEW CHURCH DANSOMAN OLD MARKET OPPOSITE THE BUS STATION <TXID> 98774446 43111187 Dear momo subscriber, You have been suspended for 92DAYS due to REPORT. Thank you",field_scam
+1,Ghana Post: Your package address is incorrect and cannot be delivered. Please update your delivery address immediately: <URL>,field_scam
+1,"Congratulations, the job opportunity you applied for has been approved. Please contact us on WhatsApp for salary: <PHONE>",field_scam
+1,Remote part-time job available in Ghana. Daily income: 100-400 GHS. No experience needed. WhatsApp: <URL>,field_scam
+1,Instant delivery on-going.Send your orders now. URL : <URL> USSD: *426*201# Get 1g.b for 4.50 or become a dealer for cheaper prices,field_scam
+1,TODAY LOTTO NUMBERS ((51-40-87-22-53)) ((51-22)),field_scam
