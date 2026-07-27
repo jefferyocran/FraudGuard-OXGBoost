@@ -44,8 +44,7 @@ An undergraduate ML research project (CSM 376, KNUST) investigating whether SMS 
 Earlier dataset versions (v3–v5) were intermediate collection stages; v6 is the current, leakage-controlled dataset used for the reported results.
 
 ## Dataset Notes
-
-The Ghanaian field dataset was collected under **KNUST CHRPE ethics approval** and complies with the **Ghana Data Protection Act, 2012 (Act 843)**. All messages are anonymised — phone numbers, transaction IDs, and links are redacted (`<PHONE>`, `<TXID>`, `<URL>`). Personal names were removed entirely to prevent label leakage. Messages are otherwise preserved verbatim, including original spelling and formatting, as these are characteristic features of the fraud class. No raw screenshots are stored.
+All messages are anonymised — phone numbers, transaction IDs, and links are redacted (`<PHONE>`, `<TXID>`, `<URL>`). Personal names were removed entirely to prevent label leakage. Messages are otherwise preserved verbatim, including original spelling and formatting, as these are characteristic features of the fraud class. No raw screenshots are stored.
 
 The natural class imbalance (about 1 scam to 4 legitimate) reflects the real-world condition, in which fraudulent messages are infrequent relative to genuine ones.
 
