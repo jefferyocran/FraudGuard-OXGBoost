@@ -37,7 +37,7 @@ An undergraduate ML research project (CSM 376, KNUST) investigating whether SMS 
 | `o_xgboost.ipynb` | O-XGBoost focal-loss variant |
 | `experiment2.ipynb` | Local-data effect (RQ2) — headline result |
 | `experiment3.ipynb` | Engineering comparison (RQ3) + threshold analysis |
-| `ghana_momo_field_v6.csv` | Current anonymised Ghanaian MoMo SMS dataset (208 messages, leakage-controlled) |
+| `ghana_momo_field.csv` | Current anonymised Ghanaian MoMo SMS dataset (208 messages, leakage-controlled) |
 | `requirements.txt` | Python dependencies |
 | `README.md` | This file |
 
