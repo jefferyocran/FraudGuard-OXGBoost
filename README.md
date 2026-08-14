@@ -15,7 +15,7 @@ An ML research project investigating whether SMS fraud-detection models generali
 | # | Finding | Result |
 |---|---|---|
 | 1 | Western-trained model on Ghanaian scams | 23.5% recall; 28 of 67 legitimate messages wrongly flagged |
-| 2 | After adding local data | Recall to 29.4%; false positives cut from 28 to 4 (7x fewer) |
+| 2 | After adding local data | Recall to 29.4%; false positives cut from 28 to 5 (7x fewer) |
 | 3 | O-XGBoost with tuned focal loss (γ=5) | Scam recall rises to 94.1% (16 of 17), at the cost of lower precision |
 | 4 | Decision-threshold tuning | Recall rises from 35.3% (default) to 88.2% at a lower threshold, no new data |
 
@@ -75,7 +75,7 @@ The natural class imbalance (about 1 scam to 4 legitimate) reflects the real-wor
 ## Author
 
 **Jeffery Jojo Ocran** — Department of Computer Science, KNUST
-Supervisor: Dr. Emmanuel Ahene
+**Supervisor**: Dr. Emmanuel Ahene
 
 ## Status
 
